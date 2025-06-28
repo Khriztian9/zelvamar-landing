@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Rooms from '../components/Rooms';
-import Booking from '../components/Booking';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 
@@ -31,7 +31,7 @@ export default function Home() {
       </svg>
     </div>
 
-      <Booking />
+      <Contact />
       <Footer />
     </>
   );
