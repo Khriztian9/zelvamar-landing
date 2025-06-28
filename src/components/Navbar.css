@@ -1,0 +1,30 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.4); /* fondo oscuro transparente */
+  backdrop-filter: blur(10px);   /* efecto de difuminado detrás */
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #00b3b3;
+  border-radius: 1px;
+}

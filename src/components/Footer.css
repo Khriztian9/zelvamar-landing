@@ -1,0 +1,37 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h5 {
+  color: #00b3b3;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #00b3b3;
+}
+
+footer {
+  background: linear-gradient(to right, #000, #003333);
+  border-top: 2px solid #00b3b3;
+  padding-top: 30px;
+}
+
+footer h5 {
+  color: #00b3b3;
+}
+
+footer a {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+footer a:hover {
+  opacity: 1;
+  color: #00b3b3;
+}

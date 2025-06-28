@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --color-teal: #00b3b3;
+  --color-black: #000000;
+  --color-white: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(to bottom, #000000, #001f1f, #003333);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.text-teal {
+  color: var(--color-teal);
+}
+
+.bg-teal {
+  background-color: var(--color-teal);
+}
+
+.btn-teal {
+  background-color: var(--color-teal);
+  color: white;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #009999;
+  color: white;
 }
