@@ -30,7 +30,7 @@ zelvamar-landing/
 │ │ ├── Navbar.jsx / Navbar.css
 │ │ ├── Hero.jsx / Hero.css
 │ │ ├── Rooms.jsx / Rooms.css
-│ │ ├── Booking.jsx / Booking.css
+│ │ ├── Contact.jsx / Contact.css
 │ │ ├── Footer.jsx / Footer.css
 │ │ └── WhatsappButton.jsx / WhatsappButton.css
 │ ├── pages/Home.jsx
