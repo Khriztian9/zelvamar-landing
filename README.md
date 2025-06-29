@@ -47,3 +47,6 @@ git clone https://github.com/TU_USUARIO/zelvamar-landing.git
 cd zelvamar-landing
 npm install
 npm start
+```
+
+Asegura agregar 15 imagenes en la carpeta `public` llamadas `carrusel1.png` a `carrusel15.png` para que el carrusel funcione.
