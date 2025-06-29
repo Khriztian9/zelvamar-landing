@@ -4,7 +4,7 @@ Bienvenido al sitio oficial del Hotel **ZELVAMAR**, un refugio natural entre el 
 
 ![Zelvamar Screenshot](public/zelvamar-preview.jpg)
 
-🔗 **Sitio en línea**: [https://zelvamar-landing.vercel.app](https://zelvamar-landing.vercel.app)
+🔗 **Sitio en línea**: [https://zelvamar.vercel.app](https://zelvamar.vercel.app)
 
 ---
 
