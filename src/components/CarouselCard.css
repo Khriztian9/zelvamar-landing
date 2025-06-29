@@ -1,0 +1,19 @@
+.carousel-card-section {
+  background: linear-gradient(to bottom, #000, #001f1f);
+  text-align: center;
+}
+
+.carousel-card-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-card-img {
+  width: 100%;
+  height: auto;             /* 👈 importante: no recorta la altura */
+  display: block;
+  object-fit: contain;      /* 👈 ajusta la imagen completa sin recorte */
+}

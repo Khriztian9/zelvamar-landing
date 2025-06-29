@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Rooms from '../components/Rooms';
-import Carousel from '../components/Carousel';
+import CarouselCard from '../components/CarouselCard';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -23,7 +23,7 @@ export default function Home() {
 
       <Rooms />
 
-      <Carousel />
+      <CarouselCard />
 
        <div style={{ overflow: 'hidden', lineHeight: 0 }}>
       <svg viewBox="0 0 1440 320" style={{ width: '100%', height: '100px' }} preserveAspectRatio="none">
