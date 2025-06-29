@@ -1,7 +1,7 @@
 import './Carousel.css';
 
 export default function Carousel() {
-  const images = Array.from({ length: 15 }, (_, i) => `/carrusel${i + 1}.png`);
+  const images = Array.from({ length: 15 }, (_, i) => `/carrusel${i + 1}.jpg`);
 
   return (
     <section id="carousel" className="carousel-section py-5 bg-black text-white">
