@@ -16,7 +16,6 @@ export default function Navbar() {
           <li className="nav-item"><a className="nav-link" href="#hero">Inicio</a></li>
           <li className="nav-item"><a className="nav-link" href="#rooms">Habitaciones</a></li>
           <li className="nav-item"><a className="nav-link" href="#booking">Contáctenos</a></li>
-          <li className="nav-item"><a className="nav-link" href="#contact">Contacto</a></li>
         </ul>
       </div>
     </nav>

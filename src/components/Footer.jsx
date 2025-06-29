@@ -5,14 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white py-4" id="contact">
       <div className="container" data-aos="fade-up">
-        <div className="row text-center text-md-start">
-          {/* Columna 1: Logo y descripción */}
-          <div className="col-md-4 mb-3">
-            <img src="/zelvamar-logo.png" alt="Zelvamar" style={{ height: '50px' }} />
-            <p className="mt-3 text-muted">
-              ZELVAMAR es un refugio natural entre el mar y la montaña. Vive la experiencia del Pacífico colombiano.
-            </p>
-          </div>
+        <div className="row text-center text-md-start">          
 
           {/* Columna 2: Contacto */}
           <div className="col-md-4 mb-3">
