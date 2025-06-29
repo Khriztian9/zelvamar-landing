@@ -1,4 +1,16 @@
-.carousel-section img {
-  height: 400px;
+.carousel-section {
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.carousel img {
+  border-radius: 10px;
   object-fit: cover;
+  max-height: 500px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
 }
