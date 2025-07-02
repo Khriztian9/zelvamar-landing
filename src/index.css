@@ -12,6 +12,17 @@ body {
   padding: 0;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-margin-top: 80px;
+}
+
 
 .text-teal {
   color: var(--color-teal);
