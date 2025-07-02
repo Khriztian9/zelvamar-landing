@@ -18,6 +18,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Hero2 />
+      <MapaZelvamar />
+
 
 
    <div style={{ overflow: 'hidden', lineHeight: 0 }}>
@@ -40,7 +42,6 @@ export default function Home() {
       </svg>
     </div>
 
-      <MapaZelvamar />
 
       <Precios />
 
