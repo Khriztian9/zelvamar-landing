@@ -19,6 +19,9 @@ export default function Home() {
       <Hero />
       <Hero2 />
 
+      <MapaZelvamar />
+
+
 
    <div style={{ overflow: 'hidden', lineHeight: 0 }}>
       <svg viewBox="0 0 1440 320" style={{ width: '100%', height: '100px' }} preserveAspectRatio="none">
@@ -40,7 +43,6 @@ export default function Home() {
       </svg>
     </div>
 
-      <MapaZelvamar />
 
       <Precios />
 
