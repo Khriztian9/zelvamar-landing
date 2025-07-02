@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Hero2 from '../components/Hero2';
 import Rooms from '../components/Rooms';
 import CarouselCard from '../components/CarouselCard';
 import Contact from '../components/Contact';
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <Hero2 />
 
    <div style={{ overflow: 'hidden', lineHeight: 0 }}>
       <svg viewBox="0 0 1440 320" style={{ width: '100%', height: '100px' }} preserveAspectRatio="none">

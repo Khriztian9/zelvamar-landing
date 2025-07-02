@@ -1,0 +1,13 @@
+.hero2-content {
+  max-width: 800px;
+  color: white;
+}
+
+.hero2-content ul {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.hero2-content li {
+  margin-bottom: 0.25rem;
+}
