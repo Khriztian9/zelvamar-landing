@@ -7,7 +7,7 @@ export default function Hero2() {
       className="d-flex align-items-center justify-content-center text-center"
       style={{
         height: '100vh',
-        backgroundImage: "url('/hero2.jpg')",
+        backgroundImage: "url('/Hero2.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: '#000',
