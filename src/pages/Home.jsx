@@ -8,15 +8,17 @@ import CarouselCard from '../components/CarouselCard';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
+import AOS from 'aos';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <ReactFullpage
-        navigation
-        scrollingSpeed={700}
-        render={() => (
+        <ReactFullpage
+          navigation
+          scrollingSpeed={700}
+          afterLoad={() => AOS.refresh()}
+          render={() => (
           <ReactFullpage.Wrapper>
             <div className="section">
               <Hero />
