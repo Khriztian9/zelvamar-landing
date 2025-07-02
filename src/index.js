@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import MainApp from './MainApp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
+import '@fullpage/react-fullpage/dist/react-fullpage.css';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
