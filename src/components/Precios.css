@@ -1,0 +1,17 @@
+.accommodation-section {
+  background: linear-gradient(to bottom, #000, #001a1a);
+  color: #ddd;
+}
+
+.accommodation-section h2,
+.accommodation-section h3 {
+  color: #20c997; /* o var(--color-teal) si lo tienes definido */
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

@@ -19,11 +19,13 @@ export default function Footer() {
           <div className="col-md-4 mb-3">
             <h5 className="text-teal">Síguenos</h5>
             <div className="d-flex gap-3 justify-content-center justify-content-md-start">
+              <div className="d-flex gap-3 justify-content-center justify-content-md-start">
                 <a href="https://facebook.com" className="text-white"><i className="bi bi-facebook fs-4"></i></a>
                 <a href="https://instagram.com" className="text-white"><i className="bi bi-instagram fs-4"></i></a>
                 <a href="https://wa.me/573101234567" className="text-white"><i className="bi bi-whatsapp fs-4"></i></a>
-
+                
             </div>
+              </div>
           </div>
         </div>
 
