@@ -7,6 +7,8 @@ import Footer from '../components/Footer';
 import Hero2 from '../components/Hero2';
 import MapaZelvamar from '../components/MapaZelvamar';
 import Precios from '../components/Precios';
+import Carousel3D from '../components/Carousel3D';
+
 
 
 
@@ -66,7 +68,7 @@ export default function Home() {
         />
       </svg>
     </div>
-
+      <Carousel3D />
       <Contact />
       <Footer />
     </>
