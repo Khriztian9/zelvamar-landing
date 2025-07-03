@@ -5,7 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import './Carousel3D.css';
 
-const images = Array.from({ length: 9 }, (_, i) => `/carousel${i + 1}.jpeg`);
+const images = Array.from({ length: 9 }, (_, i) => `/Carousel${i + 1}.jpeg`);
 
 export default function Carousel3D() {
   return (
