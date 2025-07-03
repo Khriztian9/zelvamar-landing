@@ -21,7 +21,9 @@ export default function Home() {
       <Hero />
       <Hero2 />
 
-      <MapaZelvamar />
+<section id="mapa" className="my-5">
+  <MapaZelvamar />
+</section>
 
 
 
@@ -46,7 +48,9 @@ export default function Home() {
     </div>
 
 
-      <Precios />
+<section id="precios" className="my-5">
+  <Precios />
+</section>
 
 
     <div style={{ overflow: 'hidden', lineHeight: 0 }}>

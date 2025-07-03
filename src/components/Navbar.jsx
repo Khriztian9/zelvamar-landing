@@ -1,6 +1,5 @@
 import './Navbar.css';
 
-
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top px-4 py-3">
@@ -14,12 +13,12 @@ export default function Navbar() {
       <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul className="navbar-nav gap-3">
           <li className="nav-item"><a className="nav-link" href="#hero">Inicio</a></li>
+          <li className="nav-item"><a className="nav-link" href="#mapa">¿Cómo llegar?</a></li>
           <li className="nav-item"><a className="nav-link" href="#rooms">Instalaciones</a></li>
-          <li className="nav-item"><a className="nav-link" href="#Precios">Alojamiento</a></li>
+          <li className="nav-item"><a className="nav-link" href="#precios">Alojamiento</a></li>
           <li className="nav-item"><a className="nav-link" href="#booking">Contáctenos</a></li>
         </ul>
       </div>
     </nav>
   );
 }
-
