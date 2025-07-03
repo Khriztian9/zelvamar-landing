@@ -15,6 +15,7 @@ export default function Navbar() {
         <ul className="navbar-nav gap-3">
           <li className="nav-item"><a className="nav-link" href="#hero">Inicio</a></li>
           <li className="nav-item"><a className="nav-link" href="#rooms">Instalaciones</a></li>
+          <li className="nav-item"><a className="nav-link" href="#Precios">Alojamiento</a></li>
           <li className="nav-item"><a className="nav-link" href="#booking">Contáctenos</a></li>
         </ul>
       </div>

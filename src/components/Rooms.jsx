@@ -21,7 +21,7 @@ export default function Rooms() {
           {/* Habitación 2 */}
           <div className="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
             <div className="card bg-dark border-0 shadow-lg h-100">
-              <img src="/room2.jpeg" className="card-img-top" alt="Cabaña Ecológica" />
+              <img src="/room2.jpg" className="card-img-top" alt="Cabaña Ecológica" />
               <div className="card-body">
                 <h5 className="card-title text-teal">Bar</h5>
                 <p className="card-text text-light">
